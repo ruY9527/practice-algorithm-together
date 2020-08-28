@@ -1,6 +1,6 @@
-package com.kyexpress.erp.tms.user.provider.service.test;
+package com..service.test;
 
-import com.kyexpress.framework.utils.JsonUtils;
+import com.JsonUtils;
 import org.junit.Test;
 
 /**
