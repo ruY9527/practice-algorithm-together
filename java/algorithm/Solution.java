@@ -7,7 +7,7 @@ import org.junit.Test;
  * @author ：wangsun
  * @date ：Created in 2020/8/28 16:18
  * @project : user
- * @package : com.kyexpress.erp.tms.user.provider.service.test
+ * @package : com.service.test
  * @description：测试
  */
 public class Solution {
