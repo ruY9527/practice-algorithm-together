@@ -21,10 +21,10 @@ function convert(strs: string, numRows: number): string {
 
     for (const s of strs) {
         rows[col] += s
-        if (col === 0 || col === numRows - 1) { // 在达到变换的边界时改变down值
+        if (col === 0 || col === numRows - 1) { // 在达到变换的边界时改变down的状态
             down = !down
         }
-        col += down ? 1 : -1 // down为ture时举行在数组的下一个索引值上追加，为false时则在上一个所以值增加
+        col += down ? 1 : -1 // down为ture时继续在数组的下一个索引值上追加，为false时则在上一个索引值追加
     }
 
     return rows.join('')
