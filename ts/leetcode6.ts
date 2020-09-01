@@ -5,7 +5,7 @@
 // E   D   H   N
 // 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如："LCIRETOESIIGEDHN"
 
-// 思路： 观察例子中的排列是的字符串 可以发现当我们把空格去掉后就是一个长度为3的数据，所以我们可以遍历原始字符串然后生成一个数组然后在将数组拼接起来
+// 思路： 观察例子中的排列是的字符串 可以发现当我们把空格去掉后就是一个长度为3的数组，所以我们可以遍历原始字符串然后生成一个数组然后在将数组拼接起来
 
 function convert(strs: string, numRows: number): string {
     if (numRows === 1 || strs.length <= numRows) return strs
