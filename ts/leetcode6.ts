@@ -16,7 +16,7 @@ function convert(strs: string, numRows: number): string {
         rows[i] = ''
     }
 
-    let col = 0 // 数组的所以
+    let col = 0 // 数组的索引
     let down = false // 字符串是否在数组的下一个索引进行拼接
 
     for (const s of strs) {
